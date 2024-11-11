@@ -1,0 +1,40 @@
+
+.section-cuttingedge{
+    padding: 5rem;
+}
+
+
+.section-cuttingedge-top--container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center  ;
+    
+    
+    
+}
+
+.section-cuttingedge-top--container button{
+    color: rgba(105, 65, 198, 1);
+    background-color: rgba(128, 128, 128, 0.13);
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -ms-border-radius: 10rem;
+    -o-border-radius: 10rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.cutting-edge-img--container {
+    margin-top: 2rem;
+}
+
+.cutting-edge-cards--container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}

@@ -1,0 +1,46 @@
+
+
+.section-sispus{
+    background: rgba(249, 250, 251, 1);
+    height:50vh;
+    padding:5rem ;
+}
+
+.section-sispus .container{
+    gap: 0rem;
+}
+
+.section-sispus-top--container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section-sispus-bottom--container{
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+figure{
+    width: max-content;
+    text-align: right;
+    
+}
+
+.section-sispus-bottom--container figure img {
+    border: 1px solid gray;
+    width:7rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #F9FAFB;
+    
+}

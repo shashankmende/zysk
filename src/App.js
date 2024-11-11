@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Blog from './components/Blog/Blog';
+import Companies from './components/Companies/Companies';
+import CuttingEdge from './components/CuttingEdge/CuttingEdge';
+import Faq from './components/FAQ/Faq';
+import Feature from './components/Feature/Feature';
+import Footer from './components/Footer/Footer';
+import FreeTrial from './components/FreeTrial/FreeTrial';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Layout from './components/Layout/Layout';
+import Sispus from './components/Sispus/Sispus';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Layout>
+      
+        <Hero/>
+        <Companies/>
+        <Feature/>
+        <Sispus/>
+        <CuttingEdge/>
+        <Faq/>
+        <Blog/>
+        <FreeTrial/>
+        <Footer/>
+      </Layout>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+
+header{
+    padding: 1.3rem 6rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.581);
+    margin-bottom: 3rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    
+    gap: 4.5rem;
+}
+
+.navbar-brand li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+
+
+.navbar-brand-1--div{
+    display: flex;
+    
+    
+
+    gap: 1rem;
+}
+
+.header-profile--div {
+
+}

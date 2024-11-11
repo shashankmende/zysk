@@ -1,0 +1,62 @@
+
+
+main{
+    min-height: 80vh;
+    
+
+}
+
+.section-main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    line-height: 1.5;
+    text-align: center;
+    gap: 1rem;
+}
+
+.main-top--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+.main-top--container {
+    margin-bottom: 3rem;
+}
+
+.buttons-container{
+    margin-bottom: 4rem;
+}
+
+.buttons-container button{
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-size: 1.8rem;
+
+}
+
+.demo-btn{
+    background-color: transparent;
+    color: rgba(71, 84, 103, 1);
+    
+    border: 1px solid rgba(128, 128, 128, 0.615);
+    margin-right: 3rem;
+    
+    
+
+}
+
+
+.signup-btn{
+    background-color: rgba(127, 86, 217, 1);
+    color: white;
+    border: none;
+}
