@@ -7,6 +7,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+
+  overflow-x: hidden;
   
 }
 
@@ -32,4 +34,14 @@ p{
 li{
   font-size: 2rem;
   list-style: none;
+}
+
+@media (max-width:768px) {
+  
+  :root{
+    font-size: 52.5%;
+  }
+  h1{
+    font-size: 3rem;
+  }
 }

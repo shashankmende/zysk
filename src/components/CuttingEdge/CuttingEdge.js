@@ -4,6 +4,7 @@ import React from 'react'
 import './CuttingEdge.css'
 import cuttingEdge from '../images/cutting_edge.svg'
 import messageChartCircle from '../images/message_chat_circle.svg'
+import cuttingEdgeSmall from '../images/cutting_edge_small_img.svg'
 
 const CuttingEdge = () => {
   return (
@@ -15,8 +16,11 @@ const CuttingEdge = () => {
         </div>
 
         <div className='cutting-edge-img--container'>
-            <figure>
+            <figure className='large'>
                 <img src={cuttingEdge} alt="cuttingedge" />
+            </figure>
+            <figure className='small'>
+                <img src={cuttingEdgeSmall} alt="cuttingedge" />
             </figure>
         </div>
 

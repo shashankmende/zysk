@@ -1,8 +1,10 @@
 
 
 main{
-    min-height: 80vh;
-    
+    /* min-height: 80vh; */
+    height: max-content;
+    width: 100%;
+    margin-bottom: 5rem;
 
 }
 
@@ -13,6 +15,7 @@ main{
     line-height: 1.5;
     text-align: center;
     gap: 1rem;
+    
 }
 
 .main-top--container {
@@ -28,6 +31,10 @@ main{
 
 .buttons-container{
     margin-bottom: 4rem;
+    /* border: 2px solid red; */
+    display: flex;
+    width: 40%;
+    
 }
 
 .buttons-container button{
@@ -40,6 +47,7 @@ main{
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     font-size: 1.8rem;
+    width: 100%;
 
 }
 
@@ -59,4 +67,35 @@ main{
     background-color: rgba(127, 86, 217, 1);
     color: white;
     border: none;
+}
+
+.main-fig-container figure img{
+    /* width: 50%; */
+    width: 900px;
+}
+
+@media (max-width:998px) {
+    .main-fig-container{
+        display: flex;
+        justify-content: center;
+    }
+    .main-fig-container figure img{
+        /* width: 50%; */
+        width: 700px;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .buttons-container{
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid red; */
+            width: 100%;
+            gap: 2rem;
+    }
+    .buttons-container button{
+        /* width: 100%; */
+    }
+    
 }

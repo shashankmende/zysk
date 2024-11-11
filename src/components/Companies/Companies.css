@@ -1,11 +1,6 @@
 
 .section-companies{
-   padding: 3rem 0;
-   height: 200px;
-   
-   display: flex;
-   align-items: center;
-   margin: 6rem 03;
+   display: block;
 }
 
 .section--div {
@@ -21,9 +16,26 @@ figure{
     display: flex;
     align-items: center;
     gap: 1rem;
+    flex: 1;
 }
 
 .companies-img--container {
     display: flex;
     gap: 3rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width:768px) {
+    .section--div p{
+        font-size: 1.5rem;
+    }
+    .section-companies{
+        padding: 1rem;
+        margin: 0;
+        height: max-content;
+    }
+    .companies-img--container figure img {
+        width: 40px;
+    }
+    
 }

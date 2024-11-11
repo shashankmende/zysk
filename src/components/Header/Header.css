@@ -36,3 +36,32 @@ header{
 .header-profile--div {
 
 }
+
+.hamburger-menu--container {
+    display: none;
+}
+
+
+@media (max-width:998px) {
+    .navbar-brand-1--div~li{
+        display: none;
+    }
+    
+    .header-profile--div{
+        display: none;
+    }
+    .hamburger-menu--container {
+        display: block;
+        
+    }
+}
+
+
+@media (max-width:768px) {
+    header{
+        padding: 1.5rem;
+        
+
+    }
+    
+}

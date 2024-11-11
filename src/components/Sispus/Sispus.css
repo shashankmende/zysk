@@ -2,7 +2,7 @@
 
 .section-sispus{
     background: rgba(249, 250, 251, 1);
-    height:50vh;
+    height:max-content;
     padding:5rem ;
 }
 
@@ -42,5 +42,15 @@ figure{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     background-color: #F9FAFB;
+    
+}
+
+@media (max-width:768px) {
+    .section-sispus{
+        padding: 1rem;
+    }
+    .section-sispus h2{
+        font-size: 2rem ;
+    }
     
 }
